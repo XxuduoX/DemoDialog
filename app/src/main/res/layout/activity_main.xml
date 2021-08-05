@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo1_simple_dialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/demo2_button_dialog" />
+
+        <TextView
+            android:id="@+id/tvDemo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/demo3_textInput_dialog" />
+
+        <TextView
+            android:id="@+id/tvDemo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEX3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EXERCISE3" />
+
+        <TextView
+            android:id="@+id/tvEX3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/demo4_date_picker_dialog" />
+
+        <TextView
+            android:id="@+id/tvDemo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/demo5_time_picker_dialog" />
+
+        <TextView
+            android:id="@+id/tvDemo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
